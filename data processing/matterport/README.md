@@ -21,3 +21,4 @@ After downloading the dataset, you will get the following directory
                 └── region_segmentations.zip     
     
 We decompress files in bulk through `unzipmp.py`
+Please modify the `root` to the file address under your computer
