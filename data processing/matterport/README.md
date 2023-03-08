@@ -48,4 +48,4 @@ Next, we simplify the grid through `graph.py` to obtain the processed pt data.
         --qem \
         --dataset matterport 
 
-    
+Some file path may need to be updated    
