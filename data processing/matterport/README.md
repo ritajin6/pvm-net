@@ -21,4 +21,31 @@ After downloading the dataset, you will get the following directory
                 └── region_segmentations.zip     
     
 We decompress files in bulk through `unzipmp.py`
-Please modify the `root` to the file address under your computer
+Please modify the `root` to the file address under your download
+Then you will get the following directory
+
+    ...
+    ├── v1
+        └── scans
+            ├── ...
+            ├── 2t7WUuJeko7
+            └── 5LpN3gDmAk7
+                └──5LpN3gDmAk7
+                   └──region_segmentations
+                      ├── ...
+                      ├── region0.fsegs.json
+                      ├── region0.ply
+                      ├── region0.semseg.json
+                      └── region0.vsegs.json
+                
+Next, we simplify the grid through graph.py to obtain the processed pt data.
+
+        python3 graph.py \
+        --in_path /home/jin/matterport/v1/scans \
+        --out_path data/matterport/ \
+        --level_params 0.04 30 30 30 \
+        --train \
+        --qem \
+        --dataset matterport 
+
+    
