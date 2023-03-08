@@ -38,7 +38,7 @@ Then you will get the following directory
                       ├── region0.semseg.json
                       └── region0.vsegs.json
                 
-Next, we simplify the grid through graph.py to obtain the processed pt data.
+Next, we simplify the grid through `graph.py` to obtain the processed pt data.
 
         python3 graph.py \
         --in_path /home/jin/matterport/v1/scans \
