@@ -7,7 +7,7 @@ This work is based on our paper EGNet: 3D Semantic Segmentation via Point-Voxel-
 Our model environment settings are consistent with [VMNet](https://github.com/hzykent/VMNet).
 
 ## Acknowledgements
-Our code is built upon [VMNet](https://github.com/hzykent/VMNet), [torch-geometric]([https://github.com/hzykent/VMNet](https://github.com/pyg-team/pytorch_geometric)https://github.com/pyg-team/pytorch_geometric), [torchsparse]([https://github.com/hzykent/VMNet](https://github.com/mit-han-lab/torchsparse)https://github.com/mit-han-lab/torchsparse) and [dcm-net]([https://github.com/hzykent/VMNet](https://github.com/JonasSchult/dcm-net)https://github.com/JonasSchult/dcm-net).
+Our code is built upon [VMNet](https://github.com/hzykent/VMNet), [torch-geometric](https://github.com/pyg-team/pytorch_geometric), [torchsparse](https://github.com/mit-han-lab/torchsparse) and [dcm-net](https://github.com/JonasSchult/dcm-net).
 
 
 
